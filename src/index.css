@@ -118,7 +118,7 @@ button:hover{
 @media (min-width: 1280px){
   .paddings {
     padding: 2rem;
-    max-width: 980px;
+    max-width: 1250px;
 
   }
 }
