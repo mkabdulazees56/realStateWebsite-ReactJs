@@ -5,6 +5,7 @@ import './App.css';
 import { getDatabase, ref, set } from "firebase/database";
 import { app } from "./firebase";
 import Companies from "./componenets/Companies/Companies";
+import Residencies from "./componenets/Residencies/Residencies";
 
 const db = getDatabase(app);
 
@@ -18,6 +19,7 @@ function App() {
         <Hero />
       </div>
       <Companies/>
+      <Residencies/>
     </div>
   );
 }
