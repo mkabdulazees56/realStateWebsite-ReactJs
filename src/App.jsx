@@ -6,6 +6,11 @@ import { getDatabase, ref, set } from "firebase/database";
 import { app } from "./firebase";
 import Companies from "./componenets/Companies/Companies";
 import Residencies from "./componenets/Residencies/Residencies";
+import Value from "./componenets/Value/Value";
+import Contact from "./componenets/Contact/Contact";
+import GetStart from "./componenets/GetStarted/GetStart";
+import Footer from "./componenets/Footer/Footer";
+
 
 const db = getDatabase(app);
 
@@ -20,6 +25,10 @@ function App() {
       </div>
       <Companies/>
       <Residencies/>
+      <Value/>
+      <Contact/>
+      <GetStart/>
+      <Footer/>
     </div>
   );
 }

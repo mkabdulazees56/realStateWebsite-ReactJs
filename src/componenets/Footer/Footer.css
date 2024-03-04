@@ -1,0 +1,22 @@
+.f-conatainer{
+    justify-content: space-between;
+}
+
+.left{
+    gap: 1rem;
+}
+
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px){
+    .f-conatainer{
+        justify-content: center;
+    }
+    .f-conatainer>div{
+        align-items: center !important;
+    }
+}
