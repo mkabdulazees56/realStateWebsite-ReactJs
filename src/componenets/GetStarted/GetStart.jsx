@@ -3,7 +3,7 @@ import './Getstart.css'
 
 const GetStart = () => {
     return (
-        <section className="flexCenter g-wrapper">
+        <section className="flexCenter g-wrapper" id='getstarted'>
             <div className="paddings innerWidth g-container">
                 <div className="flexColCenter inner-container">
                     <span className='primaryText'> Get Started with Homyz</span>

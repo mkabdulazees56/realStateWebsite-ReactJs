@@ -16,7 +16,7 @@ import data from '../../utils/accordion';
 
 const Value = () => {
   return (
-    <section className='flexCenter'> 
+    <section className='flexCenter' id='ourvalue'> 
     <div className="flexCenter paddings innerWidth v-container">
       <div className="v-left">
         <div className="image-container">

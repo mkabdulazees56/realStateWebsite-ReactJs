@@ -5,7 +5,7 @@ import {BsFillChatDotsFill} from 'react-icons/bs';
 import {HiChatBubbleBottomCenter} from 'react-icons/hi2';
 const Contact = () => {
     return (
-        <section className='flexCenter c-wrapper'>
+        <section className='flexCenter c-wrapper' id='contact'>
             <div className="paddings innerWidth flexCenter c-container">
                 {/* left */}
                 <div className="flexColStart c-left">
