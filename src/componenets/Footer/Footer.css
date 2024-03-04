@@ -12,6 +12,11 @@
     font-weight: 500;
 }
 
+.copyright{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 @media (max-width: 768px){
     .f-conatainer{
         justify-content: center;

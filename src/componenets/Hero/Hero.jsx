@@ -24,12 +24,10 @@ const Hero = () => {
                             <span className='secondaryText '>Forget all difficulties in finding a residence for you</span>
                         </div>
 
-                        <div className="flexCenter search-bar">
-
+                        <div className="flexSearch search-bar">
                             <HiLocationMarker color="var(--blue)" size={25} />
-                            <input type="text" />
-                            <button className="button">Search </button>
-
+                            <input type="text" placeholder="Search..." />
+                            <button className="button">Search</button>
                         </div>
                         <div className="flexCenter stats">
                             <div className="flexColCenter stat">

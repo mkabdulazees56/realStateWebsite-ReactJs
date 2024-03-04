@@ -24,8 +24,13 @@ const Footer = () => {
                     <div className="flexCenter f-menu">
                         <span>Properties</span>Services<span>Products</span><span>About Us</span>
                     </div>
+                    
                 </div>
+                
             </div>
+            <div className="flexCenter copyright">
+                    <p>Copyright &copy; 2024 Abdul Azees. All Rights Reserved.</p>
+                    </div>
         </section>
     )
 }
